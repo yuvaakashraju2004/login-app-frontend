@@ -1,0 +1,8 @@
+const API_BASE_URL = 'https://your-app.vercel.app';
+
+// Example: Login request
+fetch(`${API_BASE_URL}/login`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ username, password }),
+});
